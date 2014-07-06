@@ -1,0 +1,38 @@
+Cmp-Mod V01 Created by CvPcb (2013-jul-14)-product date = Son 12 Jan 2014 01:04:02 CET
+
+BeginCmp
+TimeStamp = /52CDC780;
+Reference = D1;
+ValeurCmp = LED;
+IdModule  = LEDs:LED-5MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /52CDC76C;
+Reference = R1;
+ValeurCmp = 220;
+IdModule  = Resistors_ThroughHole:Resistor_Horizontal_RM10mm_22Apr2011;
+EndCmp
+
+BeginCmp
+TimeStamp = /52C5273F;
+Reference = REL1;
+ValeurCmp = MP240D4;
+IdModule  = grabbelkiste:MP240D4;
+EndCmp
+
+BeginCmp
+TimeStamp = /52C480D2;
+Reference = SHIELD1;
+ValeurCmp = ARDUINO_SHIELD;
+IdModule  = arduino:ARDUINO_SHIELD_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /52CC5EC0;
+Reference = TERM1;
+ValeurCmp = SCREWTERM6;
+IdModule  = grabbelkiste:STERM6;
+EndCmp
+
+EndListe

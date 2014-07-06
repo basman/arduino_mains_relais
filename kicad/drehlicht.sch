@@ -1,0 +1,230 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:relay
+LIBS:arduino_shieldsNCL
+LIBS:romans_grabbelkiste
+LIBS:drehlicht-cache
+EELAYER 24 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L ARDUINO_SHIELD SHIELD1
+U 1 1 52C480D2
+P 4000 3950
+F 0 "SHIELD1" H 3650 4900 60  0000 C CNN
+F 1 "ARDUINO_SHIELD" H 4050 3000 60  0000 C CNN
+F 2 "ARDUINO_SHIELD" H 4000 3950 60  0000 C CNN
+F 3 "" H 4000 3950 60  0000 C CNN
+	1    4000 3950
+	1    0    0    -1  
+$EndComp
+Text Label 8450 4700 0    60   ~ 0
+N
+Text Label 9500 4700 0    60   ~ 0
+EARTH
+Text Label 7950 4000 0    60   ~ 0
+L1
+Text Label 7950 5300 0    60   ~ 0
+L2
+$Comp
+L GND #PWR2
+U 1 1 52C49739
+P 5450 3450
+F 0 "#PWR2" H 5450 3450 30  0001 C CNN
+F 1 "GND" H 5450 3380 30  0001 C CNN
+F 2 "" H 5450 3450 60  0000 C CNN
+F 3 "" H 5450 3450 60  0000 C CNN
+	1    5450 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR1
+U 1 1 52C49765
+P 2850 3950
+F 0 "#PWR1" H 2850 3950 30  0001 C CNN
+F 1 "GND" H 2850 3880 30  0001 C CNN
+F 2 "" H 2850 3950 60  0000 C CNN
+F 3 "" H 2850 3950 60  0000 C CNN
+	1    2850 3950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5450 3450 5450 3250
+Wire Wire Line
+	5450 3250 4950 3250
+Wire Wire Line
+	2850 3950 2850 3850
+Wire Wire Line
+	3050 3950 3000 3950
+Wire Wire Line
+	3000 3950 3000 3850
+Connection ~ 3000 3850
+$Comp
+L JZC-32F REL1
+U 1 1 52C5273F
+P 7100 4600
+F 0 "REL1" H 7100 4900 60  0000 C CNN
+F 1 "MP240D4" H 7100 5000 60  0000 C CNN
+F 2 "" H 7100 5000 60  0000 C CNN
+F 3 "" H 7100 5000 60  0000 C CNN
+	1    7100 4600
+	0    -1   -1   0   
+$EndComp
+NoConn ~ 3050 3550
+NoConn ~ 3050 3650
+NoConn ~ 3050 3750
+NoConn ~ 3050 4250
+NoConn ~ 3050 4350
+NoConn ~ 3050 4450
+NoConn ~ 3050 4550
+NoConn ~ 3050 4650
+NoConn ~ 3050 4750
+NoConn ~ 4950 4750
+NoConn ~ 4950 4650
+NoConn ~ 4950 4550
+NoConn ~ 4950 4450
+NoConn ~ 4950 4350
+NoConn ~ 4950 4250
+NoConn ~ 4950 4150
+NoConn ~ 4950 4050
+NoConn ~ 4950 3850
+NoConn ~ 4950 3650
+NoConn ~ 4950 3550
+NoConn ~ 4950 3450
+NoConn ~ 4950 3350
+NoConn ~ 4950 3150
+Wire Wire Line
+	2850 3850 3050 3850
+$Comp
+L SCREWTERM6 TERM1
+U 1 1 52CC5EC0
+P 9100 4050
+F 0 "TERM1" H 9100 3950 60  0000 C CNN
+F 1 "SCREWTERM6" H 9100 4050 60  0000 C CNN
+F 2 "STERM6" H 9100 2900 60  0000 C CNN
+F 3 "" H 9100 4050 60  0000 C CNN
+	1    9100 4050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8300 4050 8300 4500
+Wire Wire Line
+	8300 4500 8600 4500
+Wire Wire Line
+	7700 4050 8300 4050
+Wire Wire Line
+	8600 4900 8600 5100
+Wire Wire Line
+	8600 5100 9400 5100
+Wire Wire Line
+	8600 4400 8600 3900
+Wire Wire Line
+	8600 3900 9400 3900
+Wire Wire Line
+	9400 3900 9400 5100
+Wire Wire Line
+	8600 4600 8600 4700
+Wire Wire Line
+	8300 4800 8600 4800
+Wire Wire Line
+	7700 5150 8300 5150
+Wire Wire Line
+	8300 5150 8300 4800
+Wire Wire Line
+	4950 3750 7100 3750
+Wire Wire Line
+	7100 3750 7100 4050
+$Comp
+L GND #PWR4
+U 1 1 52CDC5AF
+P 7100 5450
+F 0 "#PWR4" H 7100 5450 30  0001 C CNN
+F 1 "GND" H 7100 5380 30  0001 C CNN
+F 2 "" H 7100 5450 60  0000 C CNN
+F 3 "" H 7100 5450 60  0000 C CNN
+	1    7100 5450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7100 5450 7100 5150
+$Comp
+L R R1
+U 1 1 52CDC76C
+P 5950 4200
+F 0 "R1" V 6030 4200 40  0000 C CNN
+F 1 "220" V 5957 4201 40  0000 C CNN
+F 2 "" V 5880 4200 30  0000 C CNN
+F 3 "" H 5950 4200 30  0000 C CNN
+	1    5950 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED D1
+U 1 1 52CDC780
+P 5950 4900
+F 0 "D1" H 5950 5000 50  0000 C CNN
+F 1 "LED" H 5950 4800 50  0000 C CNN
+F 2 "" H 5950 4900 60  0000 C CNN
+F 3 "" H 5950 4900 60  0000 C CNN
+	1    5950 4900
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR3
+U 1 1 52CDC792
+P 5950 5450
+F 0 "#PWR3" H 5950 5450 30  0001 C CNN
+F 1 "GND" H 5950 5380 30  0001 C CNN
+F 2 "" H 5950 5450 60  0000 C CNN
+F 3 "" H 5950 5450 60  0000 C CNN
+	1    5950 5450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5950 5450 5950 5100
+Wire Wire Line
+	5950 4700 5950 4450
+Wire Wire Line
+	5950 3950 5950 3750
+Connection ~ 5950 3750
+$EndSCHEMATC

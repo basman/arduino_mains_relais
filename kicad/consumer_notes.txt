@@ -1,0 +1,9 @@
+Power consumption of targeted mains device:
+
+- rush-in current of drehlicht: 0.26A (220V)
+- permanent current, roughly 0.13A
+
+No fuse implemented. Product candidates (germany):
+- Sicherung 220V 3.15A flink (3ms-300ms Reaktionszeit) mit Löschmittel, 20mm x 5mm http://www.reichelt.de/5x20mm-Feinsicherungen/K-FLINK-3-15A/3/index.html?&ACTION=3&LA=2&ARTICLE=119336&GROUPID=3301&artnr=K-FLINK+3%2C15A
+ ODER
+- Rueckstellbare Geraetesicherung 3A http://www.reichelt.de/5x20mm-Feinsicherungen/K-FLINK-3-15A/3/index.html?&ACTION=3&LA=2&ARTICLE=119336&GROUPID=3301&artnr=K-FLINK+3%2C15A

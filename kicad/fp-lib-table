@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name arduino)(type Legacy)(uri arduino_shields.mod)(options "")(descr ""))
+  (lib (name grabbelkiste)(type KiCad)(uri grabbelkiste.pretty)(options "")(descr "Was in Roman's Lab so rumliegt"))
+)
